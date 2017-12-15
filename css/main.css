@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=BenchNine:300');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  margin-bottom: 17px;
+}
+
+#logo {
+  width: 140px;
+  height: 130px;
+}
+
+header h1 {
+  font-weight: bold;
+  color: #35436e;
+}
+
+header h2 {
+  font-family: "BenchNine";
+  transform: translateY(-40%);
+}
+
+.name {
+  font-size: 20px;
+  text-align: right;
+  transform: translateY(10%);
+}
+
+hr {
+  border-style: inset;
+  border-width: 3px;
+  color: blue;
+  margin-bottom: 40px;
+}
+
+#main-image {
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#intro {
+  margin: 30px 120px 30px 120px;
+  font-family: monospace, sans-serif;
+  font-size: 25px;
+}
+
+.work {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.work h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #7d97ad;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-images {
+  width: 150px;
+  height: 115px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #aaa;
+  cursor: pointer;
+}
+
+.project-captions {
+  text-align: center;
+  font-family: "BenchNine";
+}
